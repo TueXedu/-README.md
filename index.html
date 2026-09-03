@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Instagram Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Instagram</h1>
+    </header>
+
+    <main>
+
+        <!-- Stories -->
+        <section class="stories">
+
+            <div class="story">
+                <img src="https://i.pravatar.cc/100?img=1" alt="Foto de Maria">
+                <span>Maria</span>
+            </div>
+
+            <div class="story">
+                <img src="https://i.pravatar.cc/100?img=2" alt="Foto de João">
+                <span>João</span>
+            </div>
+
+            <div class="story">
+                <img src="https://i.pravatar.cc/100?img=3" alt="Foto de Ana">
+                <span>Ana</span>
+            </div>
+
+            <div class="story">
+                <img src="https://i.pravatar.cc/100?img=4" alt="Foto de Lucas">
+                <span>Lucas</span>
+            </div>
+
+            <div class="story">
+                <img src="https://i.pravatar.cc/100?img=5" alt="Foto de Julia">
+                <span>Julia</span>
+            </div>
+
+        </section>
+
+
+        <!-- Perfil -->
+        <section class="perfil">
+
+            <img
+                src="https://i.pravatar.cc/150?img=12"
+                alt="Foto de perfil"
+            >
+
+            <div>
+                <h2>seu_usuario</h2>
+                <p>Meu perfil no Instagram 📸</p>
+            </div>
+
+        </section>
+
+
+        <!-- Publicação -->
+        <section class="post">
+
+            <!-- Cabeçalho do post -->
+            <div class="post-header">
+                <strong>seu_usuario</strong>
+            </div>
+
+            <!-- Imagem -->
+            <img
+                src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+                alt="Foto da publicação"
+            >
+
+            <!-- Botões -->
+            <div class="post-actions">
+
+                <button id="likeButton" aria-label="Curtir">
+                    🤍
+                </button>
+
+                <button aria-label="Comentar">
+                    💬
+                </button>
+
+                <button aria-label="Compartilhar">
+                    📤
+                </button>
+
+            </div>
+
+            <!-- Curtidas -->
+            <p class="likes" id="likes">
+                1.234 curtidas
+            </p>
+
+            <!-- Legenda -->
+            <p class="caption">
+                <strong>seu_usuario</strong>
+                Meu primeiro post! 📸✨
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
