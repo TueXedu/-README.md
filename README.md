@@ -1,121 +1,106 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+📸 Instagram Clone
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+Projeto de um clone da interface do Instagram desenvolvido com HTML, CSS e JavaScript.
 
-    <title>Instagram Clone</title>
+🚀 Tecnologias
+HTML5
+CSS3
+JavaScript
+Git
+GitHub
+✨ Funcionalidades
+📱 Interface responsiva
+📸 Stories
+👤 Perfil de usuário
+🖼️ Publicações
+❤️ Sistema de curtidas
+💬 Sistema de comentários
+➕ Criação de publicações
+🌙 Modo escuro
+🏠 Menu de navegação
+🔍 Pesquisa — interface
+📤 Compartilhamento — interface
+📂 Estrutura
+instagram-clone/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
-    <link rel="stylesheet" href="style.css">
-</head>
+▶️ Como executar
+1. Clone o projeto
+git clone https://github.com/SEU-USUARIO/instagram-clone.git
 
-<body>
+2. Entre na pasta
+cd instagram-clone
 
-    <!-- Cabeçalho -->
-    <header>
-        <h1>Instagram</h1>
-    </header>
+3. Abra no navegador
 
-    <main>
+Abra o arquivo:
 
-        <!-- Stories -->
-        <section class="stories">
-
-            <div class="story">
-                <img src="https://i.pravatar.cc/100?img=1" alt="Foto de Maria">
-                <span>Maria</span>
-            </div>
-
-            <div class="story">
-                <img src="https://i.pravatar.cc/100?img=2" alt="Foto de João">
-                <span>João</span>
-            </div>
-
-            <div class="story">
-                <img src="https://i.pravatar.cc/100?img=3" alt="Foto de Ana">
-                <span>Ana</span>
-            </div>
-
-            <div class="story">
-                <img src="https://i.pravatar.cc/100?img=4" alt="Foto de Lucas">
-                <span>Lucas</span>
-            </div>
-
-            <div class="story">
-                <img src="https://i.pravatar.cc/100?img=5" alt="Foto de Julia">
-                <span>Julia</span>
-            </div>
-
-        </section>
+index.html
 
 
-        <!-- Perfil -->
-        <section class="perfil">
+Você também pode abrir o projeto pelo Visual Studio Code utilizando uma extensão como Live Server.
 
-            <img
-                src="https://i.pravatar.cc/150?img=12"
-                alt="Foto de perfil"
-            >
+❤️ Curtidas
 
-            <div>
-                <h2>seu_usuario</h2>
-                <p>Meu perfil no Instagram 📸</p>
-            </div>
+O sistema permite clicar no botão de coração para:
 
-        </section>
+adicionar uma curtida;
+remover uma curtida;
+atualizar o número de curtidas.
+💬 Comentários
 
+O usuário pode escrever um comentário e clicar em Enviar.
 
-        <!-- Publicação -->
-        <section class="post">
+O comentário é adicionado diretamente à publicação.
 
-            <!-- Cabeçalho do post -->
-            <div class="post-header">
-                <strong>seu_usuario</strong>
-            </div>
+➕ Criar publicação
 
-            <!-- Imagem -->
-            <img
-                src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
-                alt="Foto da publicação"
-            >
+O usuário pode escrever uma mensagem no campo:
 
-            <!-- Botões -->
-            <div class="post-actions">
-
-                <button id="likeButton" aria-label="Curtir">
-                    🤍
-                </button>
-
-                <button aria-label="Comentar">
-                    💬
-                </button>
-
-                <button aria-label="Compartilhar">
-                    📤
-                </button>
-
-            </div>
-
-            <!-- Curtidas -->
-            <p class="likes" id="likes">
-                1.234 curtidas
-            </p>
-
-            <!-- Legenda -->
-            <p class="caption">
-                <strong>seu_usuario</strong>
-                Meu primeiro post! 📸✨
-            </p>
-
-        </section>
-
-    </main>
+O que você está pensando?
 
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+Depois de clicar em Publicar, uma nova publicação aparece no início do feed.
 
-</body>
+🌙 Modo escuro
 
-</html>
+O botão 🌙 no cabeçalho ativa o modo escuro.
+
+Ao ativar, o botão muda para ☀️.
+
+📱 Responsividade
+
+O projeto foi desenvolvido para funcionar em:
+
+💻 Computadores
+📱 Celulares
+📲 Tablets
+🎯 Objetivo
+
+O objetivo deste projeto é praticar conceitos de desenvolvimento web, incluindo:
+
+estrutura HTML;
+estilização com CSS;
+responsividade;
+manipulação do DOM;
+eventos JavaScript;
+criação dinâmica de elementos;
+interação com o usuário.
+⚠️ Aviso
+
+Este projeto é um clone educacional criado para fins de estudo e não possui vínculo oficial com o Instagram ou com a Meta.
+
+👨‍💻 Autor
+
+Seu Nome
+
+GitHub:
+
+https://github.com/SEU-USUARIO
+
+
+⭐ Se este projeto foi útil para seus estudos, considere deixar uma estrela no repositório!
